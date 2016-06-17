@@ -85,7 +85,7 @@ class MyOwnBot(pydle.Client):
             return False
 
         if self.request('torrent', id=torrent_id)['torrent']['userId'] == self.userid:
-            print("Skipping because it's a torrent I made it...")
+            print("Skipping because it's a torrent {} made...".format(_what_username))
             return False
 
         print("Fetching: {}".format(line))
