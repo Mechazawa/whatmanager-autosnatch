@@ -16,6 +16,7 @@ _manager_url = '' # also accepts the transcode add url http://seedbox/transcode/
 _manager_username = ''
 _manager_password = ''
 
+
 headers = {
     'Connection': 'keep-alive',
     'Cache-Control': 'max-age=0',
